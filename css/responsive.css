@@ -1,0 +1,219 @@
+@media only screen and (max-width: 1366px) {
+    .markers .pointer:nth-child(3) {
+        left: 29%;
+        bottom: 25%;
+    }
+    #other .overlay_txt {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    #arrival .right_panel .prod_img_block{
+        max-height: 700px;
+    }
+}
+
+@media only screen and (max-width: 1163px) {
+    #arrival .right_panel .prod_img_block {
+        max-width: 100%;
+    }
+
+    #anime .img_block {
+        height: 275px;
+    }
+
+    .my-card {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1103px) {
+    #other .overlay_txt {
+        padding: 1rem;
+    }
+    .ot_product.midSec ul {
+        display: flex;
+        margin: 40px 0;
+        list-style-position: outside;
+        padding-left: 16px;
+    }    
+}
+
+@media only screen and (max-width: 991px) {
+    .toggle_switch {
+        display: block;
+    }
+
+    .mid_menu {
+        order: 3;
+        position: relative;
+    }
+
+    .mid_menu ul {
+        position: absolute;
+        flex-flow: column;
+        right: 0;
+        transform: scaleY(0);
+        transition: 0.3s all;
+        transform-origin: top;
+        text-align: right;
+        top: 100%;
+        width: 150px;
+        padding: 0;
+    }
+
+    .mid_menu ul li {
+        margin: 0 0 8px 0 !important;
+    }
+
+    .left_logo {
+        order: 1;
+    }
+
+    .right_icon {
+        order: 2;
+    }
+
+    .menu_open {
+        transform: scaleY(1) !important;
+    }
+    .ot_product.midSec ul li {
+        padding-right: 16px;
+    }
+    #arrival .prod_tag span {
+        font-size: 11px;
+    }
+    .prod_tag {
+        margin: 16px 0;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #second .cstm_col_25 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #second .cstm_col_25:first-child,
+    #second .cstm_col_25:last-child,
+    #other .cstm_col_25:first-child{
+        padding: 0 8px;
+    }
+    .my-card {
+        padding: 24px;
+    }
+    #other .cstm_col_25,
+    #other .cstm_col_50 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #heroArea #banner .slide_item .text_block .text_area .slider_txts h1 {
+        font-weight: 900;
+        font-size: 56px;
+        text-transform: uppercase;
+    }
+    #heroArea #banner .slide_item .img_block {
+        position: relative;
+        width: 100%;
+        height: 75vh;
+    }
+    #heroArea #banner {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #heroArea #banner .slide_item .text_block .text_area .slider_txts h1 {
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    #second .cstm_col_25 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .my-card {
+        padding: 16px;
+    }
+
+    #second .cstm_col_25:last-child,
+    #second .cstm_col_25:first-child {
+        padding: 0 8px;
+    }
+
+    #other .cstm_col_25,
+    #other .cstm_col_50 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #other .overlay_txt {
+        padding: 24px;
+    }
+
+    .text_resp_center {
+        text-align: center;
+    }
+
+    footer p {
+        margin: 16px auto;
+    }
+    .left_logo a img{
+        width: 100px;
+    }
+    .ot_product.midSec ul li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ot_product .overlay_txt {
+        position: relative;
+    }
+    .ot_product {
+        position: relative;
+        height: auto;
+    }
+    #arrival .prod_tag span {
+        font-size: 16px;
+    }
+    .cta_section h5 {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .cta_section .txt_block {
+        position: relative;
+        height: 100%;
+        padding: 50px 16px;
+    }
+    .cta_section {
+        height: auto;
+    }
+    #arrival .prod_img_block {
+        height: 350px;
+    }
+    #heroArea #banner .slide_item .img_block {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+    .cta_section .txt_block .txts{
+        padding: 0 16px;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 357px){
+    .right_icon ul li {
+        margin: 0 5px;
+    }
+}
+@media only screen and (max-width: 340px){
+    .right_icon ul li a {
+        font-size: 12px;
+    }
+    .right_icon ul li {
+        margin: 0 6px;
+    }
+}
